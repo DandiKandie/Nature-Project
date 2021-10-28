@@ -4,7 +4,7 @@
     /*Global Colors*/
 
     --bg-color: rgb(195, 198, 169);
-    --font-color: rgb(247, 247, 247);
+    --font-white: rgb(247, 247, 247);
     --font-black: rgb(15, 25, 27);
 
     /*Section Colors*/
@@ -26,4 +26,81 @@
 
 body {
     font-family: 'Neuton', serif;
+    width: 100vw;
+    height: 100vh;
+    font-size: 10px;
+    background-color: var(--bg-color);
 }
+
+/*----------Header Styles-----------*/
+
+.main-header {
+    position: relative;
+    height: 40vh;
+    color: var(--font-white);
+    background: 
+        url(../images/hero-small.jpg)
+        top center / 100vw
+        no-repeat
+        fixed;        
+}
+
+.main-header-headings {
+    text-align: center;
+    font-size: 1.7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-heading {
+    font-weight: var(--fw-thin);
+    font-size: 3.2rem;
+    position: relative;
+}
+
+.main-heading::after {
+    content: "";
+    width: 75%;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    left: 25px;
+    top: 70px;
+}
+
+.main-subheading {
+    font-size: 1.6rem;
+    font-weight: var(--fw-light);
+}
+
+.main-subheading::after {
+    content: "";
+    width: 110%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: -10px;
+    top: 120px;
+}
+
+.main-header-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--font-black);
+    padding: .8rem;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.main-header-nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--font-white);
+}
+
+/*--------Animal Section Styles------------*/
