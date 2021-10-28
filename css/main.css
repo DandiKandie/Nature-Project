@@ -1,0 +1,29 @@
+/*------------- Project Variables --------------*/
+:root {
+    /*------Colors------*/
+    /*Global Colors*/
+
+    --bg-color: rgb(195, 198, 169);
+    --font-color: rgb(247, 247, 247);
+    --font-black: rgb(15, 25, 27);
+
+    /*Section Colors*/
+
+    --animal-primary: rgb(108, 107, 94);
+    --animal-secondary: rgb(156, 148, 132);
+    --flower-primary: rgb(180, 92, 140);
+    --flower-secondary: rgb(206, 155, 156);
+    --forest-primary: rgb(156, 156, 148);
+    --forest-secondary: rgb(220, 220, 227);
+    --ocean-primary: rgb(224, 188, 156);
+    --ocean-secondary: rgb(160, 212, 204);
+
+    /*Fonts*/
+    --fw-thin: 200;
+    --fw-light: 300;
+    --fw-bold: 700;    
+}
+
+body {
+    font-family: 'Neuton', serif;
+}
